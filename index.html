@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A simple menu of fresh bakery favourites.">
+  <title>Home Baker | Bakery Menu</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="page-shell">
+    <article class="menu-card">
+      <header class="menu-header">
+        <div class="brand-mark" aria-hidden="true">HB</div>
+        <p class="eyebrow">FRESH FROM THE OVEN</p>
+        <h1>Home Baker <span>Menu</span></h1>
+        <p class="intro">Little treats, savoury favourites, and freshly baked goodness.</p>
+        <div class="header-rule"><span>✦</span></div>
+      </header>
+
+      <nav class="category-nav" aria-label="Menu categories" id="categoryNav">
+        <button class="category-pill active" data-target="short-eats">Short Eats</button>
+        <button class="category-pill" data-target="bread">Bread & Buns</button>
+        <button class="category-pill" data-target="burgers">Burgers & Hotdogs</button>
+        <button class="category-pill" data-target="sweets">Cakes & Sweets</button>
+        <button class="category-pill" data-target="drinks">Drinks</button>
+      </nav>
+
+      <section class="menu-section" id="short-eats">
+        <div class="section-heading"><span class="section-icon">🥟</span><div><h2>Short Eats</h2><p>Golden, savoury favourites</p></div></div>
+        <div class="menu-list">
+          <div class="menu-item"><div class="item-copy"><h3>Fish Bun</h3><p>Soft bun filled with a mildly spiced fish mixture</p></div><span class="price">Rs. 180</span></div>
+          <div class="menu-item"><div class="item-copy"><h3>Chicken Bun</h3><p>Fluffy bun with a savoury chicken filling</p></div><span class="price">Rs. 200</span></div>
+          <div class="menu-item"><div class="item-copy"><h3>Vegetable Roti</h3><p>Classic Sri Lankan roti with vegetable filling</p></div><span class="price">Rs. 150</span></div>
+          <div class="menu-item"><div class="item-copy"><h3>Fish Roll</h3><p>Crispy crumb-coated roll with fish and potato</p></div><span class="price">Rs. 160</span></div>
+          <div class="menu-item"><div class="item-copy"><h3>Egg Pastry</h3><p>Flaky pastry with egg and gentle seasoning</p></div><span class="price">Rs. 180</span></div>
+          <div class="menu-item"><div class="item-copy"><h3>Sausage Roll</h3><p>Golden pastry wrapped around a savoury sausage</p></div><span class="price">Rs. 220</span></div>
+        </div>
+      </section>
+
+      <section class="menu-section" id="bread">
+        <div class="section-heading"><span class="section-icon">🥖</span><div><h2>Bread & Buns</h2><p>Simple, soft, and freshly baked</p></div></div>
+        <div class="menu-list">
+          <div class="menu-item"><div class="item-copy"><h3>Sugar Bun</h3><p>Soft sweet bun with a light sugar topping</p></div><span class="price">Rs. 120</span></div>
+          <div class="menu-item"><div class="item-copy"><h3>Tea Bun</h3><p>A classic soft bun for your tea break</p></div><span class="price">Rs. 100</span></div>
+          <div class="menu-item"><div class="item-copy"><h3>Butter Bun</h3><p>Soft bun with a buttery finish</p></div><span class="price">Rs. 150</span></div>
+          <div class="menu-item"><div class="item-copy"><h3>Plain Bread Loaf</h3><p>Everyday sliced bread, baked until golden</p></div><span class="price">Rs. 350</span></div>
+          <div class="menu-item"><div class="item-copy"><h3>Roast Paan</h3><p>Traditional crusty Sri Lankan bread</p></div><span class="price">Rs. 180</span></div>
+        </div>
+      </section>
+
+      <section class="menu-section" id="burgers">
+        <div class="section-heading"><span class="section-icon">🍔</span><div><h2>Burgers & Hotdogs</h2><p>Easy bites for a bigger appetite</p></div></div>
+        <div class="menu-list">
+          <div class="menu-item"><div class="item-copy"><h3>Chicken Burger</h3><p>Chicken patty, fresh lettuce, and house sauce</p></div><span class="price">Rs. 650</span></div>
+          <div class="menu-item"><div class="item-copy"><h3>Beef Burger</h3><p>Seasoned beef patty with classic toppings</p></div><span class="price">Rs. 750</span></div>
+          <div class="menu-item"><div class="item-copy"><h3>Veggie Burger</h3><p>Vegetable patty, crisp lettuce, and sauce</p></div><span class="price">Rs. 500</span></div>
+          <div class="menu-item"><div class="item-copy"><h3>Classic Hotdog</h3><p>Sausage in a soft roll with sauce</p></div><span class="price">Rs. 450</span></div>
+          <div class="menu-item"><div class="item-copy"><h3>Cheese Hotdog</h3><p>Classic hotdog finished with melted cheese</p></div><span class="price">Rs. 550</span></div>
+          <div class="menu-item"><div class="item-copy"><h3>Chicken Sandwich</h3><p>Chicken, lettuce, and creamy dressing</p></div><span class="price">Rs. 400</span></div>
+          <div class="menu-item"><div class="item-copy"><h3>Vegetable Sandwich</h3><p>Fresh vegetables with a light spread</p></div><span class="price">Rs. 300</span></div>
+        </div>
+      </section>
+
+      <section class="menu-section" id="sweets">
+        <div class="section-heading"><span class="section-icon">🧁</span><div><h2>Cakes & Sweets</h2><p>A little something sweet</p></div></div>
+        <div class="menu-list">
+          <div class="menu-item"><div class="item-copy"><h3>Vanilla Cupcake</h3><p>Light vanilla sponge with a swirl of frosting</p></div><span class="price">Rs. 220</span></div>
+          <div class="menu-item"><div class="item-copy"><h3>Chocolate Cupcake</h3><p>Chocolate sponge with chocolate icing</p></div><span class="price">Rs. 250</span></div>
+          <div class="menu-item"><div class="item-copy"><h3>Chocolate Brownie</h3><p>Rich, fudgy chocolate square</p></div><span class="price">Rs. 280</span></div>
+          <div class="menu-item"><div class="item-copy"><h3>Butter Cake Slice</h3><p>Classic, soft butter cake</p></div><span class="price">Rs. 250</span></div>
+          <div class="menu-item"><div class="item-copy"><h3>Chocolate Doughnut</h3><p>Soft doughnut topped with chocolate</p></div><span class="price">Rs. 200</span></div>
+        </div>
+      </section>
+
+      <section class="menu-section" id="drinks">
+        <div class="section-heading"><span class="section-icon">☕</span><div><h2>Drinks</h2><p>Something to sip alongside</p></div></div>
+        <div class="menu-list">
+          <div class="menu-item"><div class="item-copy"><h3>Plain Tea</h3><p>Freshly brewed Ceylon tea</p></div><span class="price">Rs. 100</span></div>
+          <div class="menu-item"><div class="item-copy"><h3>Milk Tea</h3><p>Classic tea with milk</p></div><span class="price">Rs. 150</span></div>
+          <div class="menu-item"><div class="item-copy"><h3>Fresh Lime</h3><p>Refreshing lime drink</p></div><span class="price">Rs. 250</span></div>
+          <div class="menu-item"><div class="item-copy"><h3>Iced Coffee</h3><p>Chilled coffee with milk</p></div><span class="price">Rs. 350</span></div>
+        </div>
+      </section>
+
+      <footer class="menu-footer">
+        <p class="footer-note">Made with care. Baked for your day.</p>
+        <a class="home-button" href="https://homebaker.lk/" target="_blank" rel="noopener noreferrer">Visit Home Baker website <span aria-hidden="true">↗</span></a>
+        <p class="fine-print">Prices are sample menu prices in Sri Lankan Rupees (LKR) and can be edited to match your actual menu.</p>
+      </footer>
+    </article>
+    <p class="page-note">BAKED FRESH • SERVED WITH A SMILE</p>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
